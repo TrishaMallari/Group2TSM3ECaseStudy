@@ -8,6 +8,8 @@ public class Person
     private String work;
     private int empID;
     private int numD;
+    private int empSalary;
+    private int OT;
 
     //Method 1: Trisha Mae Mallari
     public void getName(String name)
@@ -72,5 +74,27 @@ public class Person
     public int showNumofD()
     {
         return numD;
+    }
+
+    //Method 7: Jeremiah Barcelona
+    public void getEmpSalary(int empSalary)
+    {
+        this.empSalary = empSalary;
+    }
+    
+    public int showEmpSalary()
+    {
+        return empSalary;
+    }
+    
+    //Method 8: Jeremiah Barcelona
+    public void getOT(int OT)
+    {
+        this.OT = OT;
+    }
+    
+    public int showOT()
+    {
+        return OT;
     }
 }
