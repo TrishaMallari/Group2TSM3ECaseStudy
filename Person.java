@@ -12,7 +12,7 @@ public class Person
     private int OT;
     private int OTAmount;
     private int tax;
-
+    private int TSalary;
     //Method 1: Trisha Mae Mallari
     public void getName(String name)
     {
@@ -99,7 +99,7 @@ public class Person
     {
         return OT;
     }
-//Method 9:
+//Method 9: Ma. Rosalyn Garbida
     public void getOTAmount(int OTAmount)
     {
         this.OTAmount = OTAmount;
@@ -110,7 +110,7 @@ public class Person
         return OTAmount;
     }
   
-    //Method 10:
+    //Method 10: Ma. Rosalyn Garbida
     public void getTax(int tax)
     {
         this.tax = tax;
@@ -120,4 +120,13 @@ public class Person
     {
         return tax;
     }
+    //Method 11: Juan Lauro Nemenzo
+    public int TSalary()
+    {
+       int TotalSalary = (empSalary* 10)+OTAmount;
+       return TotalSalary;
+    }
+    public void result ()
+   {
+       System.out.println("The Total Salary is: " + TSalary()); }
 }
