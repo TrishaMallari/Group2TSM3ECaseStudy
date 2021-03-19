@@ -1,8 +1,8 @@
-package tsm3ecasestudy;
+package personalinformationsystem;
 
 import java.util.*;
 
-public class TSM3ECaseStudy 
+public class PersonalInformationSystem 
 {
     public static void main(String[] args) 
     {
