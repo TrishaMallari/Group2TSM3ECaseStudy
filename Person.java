@@ -13,6 +13,8 @@ public class Person
     private int OTAmount;
     private int tax;
     private int TSalary;
+    private int TSalaryTax;
+
     //Method 1: Trisha Mae Mallari
     public void getName(String name)
     {
@@ -126,7 +128,18 @@ public class Person
        int TotalSalary = (empSalary* 10)+OTAmount;
        return TotalSalary;
     }
+    
+
+   //Method 12: Adrian Gacusan
+    public int TSalaryTax()
+    {
+       int SalaryTax = (empSalary*10 + OTAmount) -tax;
+       return SalaryTax;
+       
+    }
     public void result ()
    {
-       System.out.println("The Total Salary is: " + TSalary()); }
+       System.out.println("The Total Salary is: " + TSalary()); 
+       System.out.println("The Total Salary After Tax is: " + TSalaryTax());
+}
 }
