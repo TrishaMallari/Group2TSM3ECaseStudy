@@ -27,5 +27,25 @@ public class Person
         return gender;
 		
     }
-
+ //Method 3: Angel Jasmin Adriano
+     public void getAdress(String address)
+    {
+        this.address = address;
+    }
+    
+    public String showAddress()
+    {
+        return address;
+    }
+    
+    //Method 4: Angel Jasmin Adriano
+    public void getWork(String work)
+    {
+        this.work = work;
+    }
+    
+    public String showWork()
+    {
+        return work;
+    }
 }
