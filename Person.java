@@ -10,6 +10,8 @@ public class Person
     private int numD;
     private int empSalary;
     private int OT;
+    private int OTAmount;
+    private int tax;
 
     //Method 1: Trisha Mae Mallari
     public void getName(String name)
@@ -96,5 +98,26 @@ public class Person
     public int showOT()
     {
         return OT;
+    }
+//Method 9:
+    public void getOTAmount(int OTAmount)
+    {
+        this.OTAmount = OTAmount;
+    }
+    
+    public int showOTAmount()
+    {
+        return OTAmount;
+    }
+  
+    //Method 10:
+    public void getTax(int tax)
+    {
+        this.tax = tax;
+    }
+    
+    public int showTax()
+    {
+        return tax;
     }
 }
