@@ -1,4 +1,4 @@
-package tsm3ecasestudy;
+package personalinformationsystem;
 
 public class Person 
 {
